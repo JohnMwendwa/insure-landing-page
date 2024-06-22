@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -23,7 +24,7 @@
         <nav>
           <!-- Mobile Navbar -->
           <div class="mobile__menu">
-            <div class="mobile_menu--btns">
+            <div class="mobile__menu--btns">
               <button class="mobile__menu--btn btn--open">
                 <img src="images/icon-hamburger.svg" alt="mobile menu" />
               </button>
@@ -52,10 +53,14 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="intro">
+      <section class="intro">
+        <div class="outer__container"></div>
+        <div class="container">
           <div class="intro__text">
-            <h1>Humanizing your insurance.</h1>
+            <h1>
+              Humanizing <br />
+              your insurance.
+            </h1>
             <p>
               Get your life insurance coverage easier and faster. We blend our
               expertise and technology to help you find the plan that’s right
@@ -76,50 +81,69 @@
               class="mobile"
             />
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="features">
+      <section class="features">
+        <div class="container">
           <h2>We’re different</h2>
 
-          <div class="feature">
-            <div class="feature__icon">
-              <img src="images/icon-snappy-process.svg" alt="snappy process" />
+          <div class="feature__cards">
+            <div class="feature__card">
+              <div class="feature__icon">
+                <img
+                  src="images/icon-snappy-process.svg"
+                  alt="snappy process"
+                />
+              </div>
+              <div class="feature__content">
+                <h3>Snappy Process</h3>
+                <p>
+                  Our application process can be completed in minutes, not
+                  hours. Don’t get stuck filling in tedious forms.
+                </p>
+              </div>
             </div>
-            <h3>Snappy Process</h3>
-            <p>
-              Our application process can be completed in minutes, not hours.
-              Don’t get stuck filling in tedious forms.
-            </p>
-          </div>
-          <div class="feature">
-            <div class="feature__icon">
-              <img
-                src="images/icon-affordable-prices.svg"
-                alt="affordable prices"
-              />
+            <div class="feature__card">
+              <div class="feature__icon">
+                <img
+                  src="images/icon-affordable-prices.svg"
+                  alt="affordable prices"
+                />
+              </div>
+              <div class="feature__content">
+                <h3>Affordable Prices</h3>
+                <p>
+                  We don’t want you worrying about high monthly costs. Our
+                  prices may be low, but we still offer the best coverage
+                  possible.
+                </p>
+              </div>
             </div>
-            <h3>Affordable Prices</h3>
-            <p>
-              We don’t want you worrying about high monthly costs. Our prices
-              may be low, but we still offer the best coverage possible.
-            </p>
-          </div>
-          <div class="feature">
-            <div class="feature__icon">
-              <img src="images/icon-people-first.svg" alt="people first" />
+            <div class="feature__card">
+              <div class="feature__icon">
+                <img src="images/icon-people-first.svg" alt="people first" />
+              </div>
+              <div class="feature__content">
+                <h3>People First</h3>
+                <p>
+                  Our plans aren’t full of conditions and clauses to prevent
+                  payouts. We make sure you’re covered when you need it.
+                </p>
+              </div>
             </div>
-            <h3>People First</h3>
-            <p>
-              Our plans aren’t full of conditions and clauses to prevent
-              payouts. We make sure you’re covered when you need it.
-            </p>
           </div>
-        </section>
-        <section class="cta">
-          <h2>Find out more about how we work</h2>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="container">
+          <h2>
+            Find out more <br />
+            about how we work
+          </h2>
           <a href="#">How we work</a>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container">
