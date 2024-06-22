@@ -17,6 +17,10 @@
   --very-light-gray: hsl(0, 0%, 98%);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
@@ -310,6 +314,11 @@ header .desktop__menu ul {
 @media screen and (min-width: 968px) {
   .intro {
     background: linear-gradient(var(--dark-violet) 75%, white 25%);
+  }
+
+  .intro .container {
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 0 6rem;
   }
 }
 
